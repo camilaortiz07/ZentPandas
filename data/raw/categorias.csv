@@ -1,0 +1,21 @@
+categoria_id,nombre_categoria,descripcion,limite_mensual
+1,Alimentación,Restaurantes y supermercados,500000
+2,Transporte,Taxis gasolina y peajes,300000
+3,Entretenimiento,Cines bares y eventos,200000
+4,Salud,Farmacias y médicos,400000
+5,Ropa,Tiendas de ropa y calzado,350000
+6,Tecnología,Electrónicos y gadgets,600000
+7,Hogar,Muebles y electrodomésticos,700000
+8,educacion,Cursos y libros,250000
+9,Viajes,Hoteles y tiquetes,1000000
+10,Otros,Gastos varios,150000
+11,Mascotas,Veterinaria y accesorios,180000
+12,DEPORTE,Gimnasio y equipos deportivos,220000
+13,Restaurantes,Comidas fuera del hogar,300000
+14,belleza,Peluquería y cosméticos,
+15,Seguros,Pólizas y seguros de vida,500000
+16,Streaming,Netflix Spotify y plataformas,80000
+17,Regalos,Presentes y celebraciones,250000
+18,Combustible,Gasolina y ACPM,350000
+19,Mascotas,Alimento y juguetes para mascotas,180000
+20,Servicios Públicos,Agua luz gas e internet,400000

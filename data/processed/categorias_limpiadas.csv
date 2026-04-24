@@ -1,0 +1,101 @@
+categoria_id,nombre_categoria,descripcion,limite_mensual
+1,alimentación,Restaurantes y supermercados,500000.0
+2,transporte,Taxis gasolina y peajes,300000.0
+3,entretenimiento,Cines bares y eventos,200000.0
+4,salud,Farmacias y médicos,400000.0
+5,ropa,Tiendas de ropa y calzado,350000.0
+6,tecnología,Electrónicos y gadgets,600000.0
+7,hogar,Muebles y electrodomésticos,700000.0
+8,educacion,Cursos y libros,250000.0
+9,viajes,Hoteles y tiquetes,1000000.0
+10,otros,Gastos varios,150000.0
+11,mascotas,Veterinaria y accesorios,180000.0
+12,deporte,Gimnasio y equipos deportivos,220000.0
+13,restaurantes,Comidas fuera del hogar,300000.0
+14,belleza,Peluquería y cosméticos,
+15,seguros,Pólizas y seguros de vida,500000.0
+16,streaming,Netflix Spotify y plataformas,80000.0
+17,regalos,Presentes y celebraciones,250000.0
+18,combustible,Gasolina y ACPM,350000.0
+19,mascotas,Alimento y juguetes para mascotas,180000.0
+20,servicios públicos,Agua luz gas e internet,400000.0
+21,parkings,,
+22,gimnasia,Descripción de GiMnasia,528560.0
+23,capacitación,,435582.0
+24,bebidas,Descripción de BEBIDAS,704912.0
+25,montaña,Descripción de MONTAÑA,
+26,accesorios,Descripción de ACCESORIOS,401375.0
+27,seguros auto,Descripción de Seguros Auto,397986.0
+28,accesorios,Descripción de accesorios,638611.0
+29,oficina,Descripción de oficina,559689.0
+30,paquetes internet,Descripción de PAQUETES INTERNET,
+31,salon,Descripción de SALON,283520.0
+32,frutería,,1396724.0
+33,capacitación,Descripción de CAPACITACIÓN,503052.0
+34,parkings,,659350.0
+35,drones,Descripción de DRONES,531626.0
+36,joyas,Descripción de joyas,1322702.0
+37,hotel,Descripción de Hotel,244227.0
+38,cuidado personal,Descripción de Cuidado Personal,263077.0
+39,transporte público,Descripción de Transporte Público,220533.0
+40,posgrado,,1094037.0
+41,mascotas exóticas,Descripción de mascotas exóticas,791960.0
+42,gym,Descripción de Gym,1034945.0
+43,cabello,Descripción de CABELLO,494520.0
+44,data science,Descripción de DATA SCIENCE,846605.0
+45,desayuno,Descripción de desayuno,500765.0
+46,seguros auto,Descripción de Seguros Auto,
+47,hotel,Descripción de Hotel,375404.0
+48,bebé,Descripción de BEBÉ,967345.0
+49,transporte público,Descripción de Transporte Público,
+50,senderismo,Descripción de senderismo,530500.0
+51,cabello,Descripción de cabello,
+52,hotel,Descripción de Hotel,205624.0
+53,viajes negocios,,400147.0
+54,atletismo,,
+55,farmacia,Descripción de farmacia,255882.0
+56,niños,Descripción de niños,1459629.0
+57,seguros auto,,604831.0
+58,cabello,,502475.0
+59,gimnasia,Descripción de GiMnasia,247522.0
+60,desayuno,Descripción de DESAYUNO,265299.0
+61,dulces,Descripción de dulces,221371.0
+62,ropa casual,Descripción de ropa casual,
+63,accesorios,Descripción de accesorios,920269.0
+64,videojuegos,Descripción de VIDEOJUEGOS,583083.0
+65,idiomas,,575502.0
+66,dulces,Descripción de dulces,1240323.0
+67,atletismo,,87898.0
+68,carnicería,Descripción de carnicería,603542.0
+69,accesorios,Descripción de ACCESORIOS,478357.0
+70,lácteos,Descripción de lácteos,1203266.0
+71,playa,Descripción de playa,1471791.0
+72,idiomas,,363784.0
+73,programación,,
+74,atletismo,Descripción de ATLETISMO,541590.0
+75,hobbies,Descripción de hobbies,1456464.0
+76,deportes,Descripción de DEPORTES,
+77,frutería,,883419.0
+78,farmacia,Descripción de Farmacia,1142551.0
+79,zapatos,Descripción de ZAPATOS,724049.0
+80,niños,Descripción de niños,1059768.0
+81,hobbies,Descripción de HOBBIES,859830.0
+82,mascotas exóticas,Descripción de mascotas exóticas,1182879.0
+83,música,Descripción de MÚSICA,1188805.0
+84,moto,Descripción de MOTO,298370.0
+85,dinero,,
+86,restaurantes lujosos,Descripción de restaurantes lujosos,629412.0
+87,uber,Descripción de uber,1247492.0
+88,universidad,Descripción de UNIVERSIDAD,319903.0
+89,streaming,,1172145.0
+90,deportes,Descripción de DEPORTES,1203327.0
+91,panadeería,,417253.0
+92,paquetes internet,Descripción de Paquetes internet,401917.0
+93,hobbies,Descripción de HOBBIES,1018932.0
+94,hotel,,154785.0
+95,accesorios,,
+96,farmacia,Descripción de Farmacia,1478590.0
+97,gym,Descripción de Gym,895995.0
+98,joyas,Descripción de joyas,
+99,oficina,Descripción de OFICINA,1169804.0
+100,capacitación,,

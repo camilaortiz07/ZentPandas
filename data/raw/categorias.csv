@@ -1,21 +1,101 @@
 categoria_id,nombre_categoria,descripcion,limite_mensual
 1,Alimentación,Restaurantes y supermercados,500000
-2,Transporte,Taxis gasolina y peajes,300000
+2,TRANSPORTE,Taxis gasolina y peajes,300000
 3,Entretenimiento,Cines bares y eventos,200000
 4,Salud,Farmacias y médicos,400000
 5,Ropa,Tiendas de ropa y calzado,350000
-6,Tecnología,Electrónicos y gadgets,600000
-7,Hogar,Muebles y electrodomésticos,700000
-8,educacion,Cursos y libros,250000
-9,Viajes,Hoteles y tiquetes,1000000
-10,Otros,Gastos varios,150000
+6,TECNOLOGÍA,Electrónicos y gadgets,600000
+7,hogar,Muebles y electrodomésticos,700000
+8,Educacion,Cursos y libros,250000
+9,VIAJES,Hoteles y tiquetes,1000000
+10,otros,Gastos varios,150000
 11,Mascotas,Veterinaria y accesorios,180000
 12,DEPORTE,Gimnasio y equipos deportivos,220000
 13,Restaurantes,Comidas fuera del hogar,300000
-14,belleza,Peluquería y cosméticos,
+14,Belleza,Peluquería y cosméticos,
 15,Seguros,Pólizas y seguros de vida,500000
-16,Streaming,Netflix Spotify y plataformas,80000
+16,STREAMING,Netflix Spotify y plataformas,80000
 17,Regalos,Presentes y celebraciones,250000
-18,Combustible,Gasolina y ACPM,350000
-19,Mascotas,Alimento y juguetes para mascotas,180000
-20,Servicios Públicos,Agua luz gas e internet,400000
+18,combustible,Gasolina y ACPM,350000
+19,MAScotas,Alimento y juguetes para mascotas,180000
+20,SERVICIOS PÚBLICOS,Agua luz gas e internet,400000
+21,PARKINGS,,
+22,GiMnasia,Descripción de GiMnasia,528560
+23,CAPACITACIÓN,,435582
+24,BEBIDAS,Descripción de BEBIDAS,704912
+25,MONTAÑA,Descripción de MONTAÑA,
+26,ACCESORIOS,Descripción de ACCESORIOS,401375
+27,Seguros Auto,Descripción de Seguros Auto,397986
+28,accesorios,Descripción de accesorios,638611
+29,oficina,Descripción de oficina,559689
+30,PAQUETES INTERNET,Descripción de PAQUETES INTERNET,
+31,SALON,Descripción de SALON,283520
+32,FRUTERÍA,,1396724
+33,CAPACITACIÓN,Descripción de CAPACITACIÓN,503052
+34,PARKINGS,,659350
+35,DRONES,Descripción de DRONES,531626
+36,joyas,Descripción de joyas,1322702
+37,Hotel,Descripción de Hotel,244227
+38,Cuidado Personal,Descripción de Cuidado Personal,263077
+39,Transporte Público,Descripción de Transporte Público,220533
+40,posgrado,,1094037
+41,mascotas exóticas,Descripción de mascotas exóticas,791960
+42,Gym,Descripción de Gym,1034945
+43,CABELLO,Descripción de CABELLO,494520
+44,DATA SCIENCE,Descripción de DATA SCIENCE,846605
+45,desayuno,Descripción de desayuno,500765
+46,Seguros Auto,Descripción de Seguros Auto,
+47,Hotel,Descripción de Hotel,375404
+48,BEBÉ,Descripción de BEBÉ,967345
+49,Transporte Público,Descripción de Transporte Público,
+50,senderismo,Descripción de senderismo,530500
+51,cabello,Descripción de cabello,
+52,Hotel,Descripción de Hotel,205624
+53,viajes negocios,,400147
+54,ATLETISMO,,
+55,farmacia,Descripción de farmacia,255882
+56,niños,Descripción de niños,1459629
+57,SEGUROS AUTO,,604831
+58,cabello,,502475
+59,GiMnasia,Descripción de GiMnasia,247522
+60,DESAYUNO,Descripción de DESAYUNO,265299
+61,dulces,Descripción de dulces,221371
+62,ropa casual,Descripción de ropa casual,
+63,accesorios,Descripción de accesorios,920269
+64,VIDEOJUEGOS,Descripción de VIDEOJUEGOS,583083
+65,IDIOMAS,,575502
+66,dulces,Descripción de dulces,1240323
+67,ATLETISMO,,87898
+68,carnicería,Descripción de carnicería,603542
+69,ACCESORIOS,Descripción de ACCESORIOS,478357
+70,lácteos,Descripción de lácteos,1203266
+71,playa,Descripción de playa,1471791
+72,IDIOMAS,,363784
+73,programación,,
+74,ATLETISMO,Descripción de ATLETISMO,541590
+75,hobbies,Descripción de hobbies,1456464
+76,DEPORTES,Descripción de DEPORTES,
+77,FRUTERÍA,,883419
+78,Farmacia,Descripción de Farmacia,1142551
+79,ZAPATOS,Descripción de ZAPATOS,724049
+80,niños,Descripción de niños,1059768
+81,HOBBIES,Descripción de HOBBIES,859830
+82,mascotas exóticas,Descripción de mascotas exóticas,1182879
+83,MÚSICA,Descripción de MÚSICA,1188805
+84,MOTO,Descripción de MOTO,298370
+85,dinero,,
+86,restaurantes lujosos,Descripción de restaurantes lujosos,629412
+87,uber,Descripción de uber,1247492
+88,UNIVERSIDAD,Descripción de UNIVERSIDAD,319903
+89,STREAMING,,1172145
+90,DEPORTES,Descripción de DEPORTES,1203327
+91,panadeería,,417253
+92,Paquetes internet,Descripción de Paquetes internet,401917
+93,HOBBIES,Descripción de HOBBIES,1018932
+94,hotel,,154785
+95,accesorios,,
+96,Farmacia,Descripción de Farmacia,1478590
+97,Gym,Descripción de Gym,895995
+98,joyas,Descripción de joyas,
+99,OFICINA,Descripción de OFICINA,1169804
+100,capacitación,,

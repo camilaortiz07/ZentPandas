@@ -1,0 +1,84 @@
+medio_id,nombre_medio,tipo,banco
+1,visa clásica,crédito,bancolombia
+2,mastercard gold,crédito,davivienda
+3,débito ahorros,débito,bancolombia
+4,nequi,digital,nequi
+5,daviplata,digital,davivienda
+6,pse,transferencia,varios
+7,efectivo,efectivo,sin_banco
+8,amex platinum,crédito,american express
+9,visa débito,débito,bbva
+10,mastercard platinum,crédito,scotiabank
+11,visa signature,crédito,bancolombia
+12,débito corriente,débito,sin_banco
+13,rapipago,digital,rapipago
+14,mastercard débito,débito,davivienda
+15,paypal,digital,paypal
+16,tarjeta regalo,prepago,sin_banco
+17,visa infinite,crédito,bbva
+18,débito ahorros,débito,bancolombia
+20,código qr,digital,sin_banco
+21,verifone,digital,sin_banco
+23,falabella,prepago,sin_banco
+24,mercadopago,digital,sin_banco
+25,izettle,transferencia,paypal
+26,redsys,digital,american express
+27,redsys,transferencia,bancolombia
+28,conekta,crédito,paypal
+29,verifone,transferencia,nequi
+30,falabella,digital,sin_banco
+32,google pay,crédito,american express
+33,mercadopago,digital,sin_banco
+34,culqi,crédito,citibank
+35,stripe,prepago,bancolombia
+36,verifone,débito,sin_banco
+37,square,digital,sin_banco
+38,pagonxt,débito,bbva
+39,firstdata,débito,bancolombia
+42,square,crédito,sin_banco
+43,mercadopago,débito,sin_banco
+44,sumup,cheque,rapipago
+45,stripe,digital,varios
+47,redsys,débito,sin_banco
+48,payu,digital,davivienda
+49,ingenico,efectivo,sin_banco
+51,square,débito,bancolombia
+52,samsung pay,transferencia,sin_banco
+53,openpay,crédito,citibank
+55,openpay,crédito,scotiabank
+56,sumup,transferencia,paypal
+57,mercadopago,cheque,bancolombia
+58,tuya,débito,davivienda
+59,kushki,débito,scotiabank
+60,éxito,,varios
+61,arp,efectivo,sin_banco
+62,square,débito,davivienda
+63,bitcoin,,sin_banco
+65,ingenico,débito,nequi
+67,openpay,prepago,bbva
+68,square,prepago,rapipago
+69,conekta,crédito,sin_banco
+70,izettle,digital,sin_banco
+72,stripe,digital,american express
+73,apple pay,efectivo,davivienda
+74,verifone,crédito,sin_banco
+76,ethereum,débito,paypal
+77,conekta,crédito,sin_banco
+78,sumup,crédito,paypal
+79,conekta,débito,sin_banco
+80,éxito,efectivo,paypal
+82,sumup,crédito,paypal
+83,ethereum,digital,sin_banco
+84,mercadopago,digital,davivienda
+86,izettle,digital,rapipago
+87,openpay,débito,citibank
+88,tuya,transferencia,sin_banco
+89,conekta,crédito,scotiabank
+90,tuya,efectivo,citibank
+91,mercadopago,transferencia,sin_banco
+93,kushki,digital,sin_banco
+94,carrefour,efectivo,scotiabank
+95,sumup,débito,sin_banco
+96,éxito,débito,davivienda
+97,tuya,crédito,sin_banco
+99,d1,,sin_banco

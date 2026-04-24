@@ -1,0 +1,122 @@
+comercio_id,nombre,ciudad,categoria_id,telefono,activo
+1,éxito,medellin,1,3001234567.0,True
+2,rappi,bogota,1,sin_telefono,True
+3,uber,cali,2,3109876543.0,True
+4,cinemark,medellin,3,6042345678.0,True
+4,almacenes éxito,medellin,19,sin_telefono,False
+5,novaventa,cartagena,4,sin_telefono,False
+6,doctor office,medellin,19,3035970583.0,True
+7,apple music,bogota,1,3024953414.0,True
+8,hbo max,bucaramanga,4,sin_telefono,False
+9,indriver,medellin,10,3035251373.0,True
+10,hospital clínico,bucaramanga,3,3055901946.0,True
+11,novaventa,cali,5,sin_telefono,True
+12,spotify,bogota,10,sin_telefono,True
+13,farmacia botica,pereira,9,3099877194.0,True
+14,indriver,barranquilla,14,3072143361.0,True
+15,cine colombia,cali,3,sin_telefono,True
+16,droguería la pastilla,bucaramanga,17,sin_telefono,False
+17,nombre 17,medellin,4,3088972364.0,False
+18,salon belleza,bogota,4,sin_telefono,True
+19,beat,bucaramanga,4,3021467507.0,True
+20,indriver,bucaramanga,17,3074085720.0,False
+21,droguería la pastilla,bucaramanga,10,3082573623.0,True
+22,amazon,bucaramanga,5,3032411769.0,True
+23,almacenes éxito,medellin,6,sin_telefono,True
+24,makro,cali,2,sin_telefono,True
+25,beat,bogota,13,sin_telefono,False
+26,gimnasio premium,cartagena,14,3077753964.0,True
+27,nombre 27,bogota,7,3056679615.0,False
+28,jumbo,cartagena,17,3089063540.0,True
+29,mercado libre,bogota,5,sin_telefono,True
+30,jumbo,medellin,1,3067416432.0,True
+31,didi,barranquilla,2,3099391633.0,True
+32,cruz verde,bogota,18,sin_telefono,True
+33,homecenter,bogota,13,3088482298.0,True
+34,linio,bogota,10,sin_telefono,True
+35,salon belleza,bogota,1,3027091833.0,True
+36,steam,bogota,5,3029807552.0,False
+37,almacenes éxito,manizales,10,3080955047.0,True
+38,farmacia ahumada,pereira,13,3014455479.0,True
+39,éxito,medellin,3,3073972778.0,True
+40,shein,cali,7,3032025142.0,True
+41,doctor office,cartagena,5,sin_telefono,False
+42,rappi,cali,11,3053777510.0,False
+43,beat,bogota,7,3056450940.0,True
+44,homecenter,bogota,16,3088140296.0,True
+45,cinemark,cali,4,3096618502.0,True
+46,éxito,cartagena,9,3073745323.0,True
+47,amazon,cali,2,sin_telefono,True
+48,farmacia ahumada,medellin,9,3046307452.0,True
+49,rappi,bogota,9,sin_telefono,True
+50,didi,cali,2,sin_telefono,False
+51,peluquería style,barranquilla,10,3011431559.0,False
+52,nombre 52,cali,18,sin_telefono,False
+53,nombre 53,bucaramanga,12,3067246814.0,False
+54,jumbo,cali,6,3075468167.0,True
+55,steam,medellin,7,3090775000.0,False
+56,spotify,manizales,7,3012966262.0,True
+57,epic games,barranquilla,1,3092640540.0,True
+58,crossfit,bucaramanga,3,3091000569.0,True
+59,disney+,medellin,1,3029891553.0,True
+60,hospital clínico,medellin,11,3097643111.0,True
+61,twitch,medellin,8,3075271610.0,True
+62,didi,manizales,19,3059325558.0,False
+63,novaventa,bucaramanga,17,3089190122.0,True
+64,farmacia ahumada,bogota,4,3041648296.0,True
+65,jumbo,medellin,11,3084124108.0,False
+66,apple music,cali,6,sin_telefono,True
+67,cine colombia,cartagena,6,sin_telefono,True
+68,amazon,cartagena,9,3037444632.0,True
+69,beat,bucaramanga,15,sin_telefono,True
+70,shein,pereira,1,3052346216.0,True
+71,indriver,cartagena,18,3088007121.0,False
+72,novaventa,bucaramanga,11,3077970689.0,True
+73,gimnasio premium,medellin,5,3014970191.0,True
+74,rappi,cali,6,3099744215.0,False
+75,shein,cali,7,3045837010.0,False
+76,indriver,medellin,18,3059757511.0,True
+77,linio,bogota,18,3026550759.0,False
+78,spotify,barranquilla,4,3022842566.0,True
+79,nombre 79,barranquilla,6,3044456039.0,True
+80,aliexpress,medellin,18,sin_telefono,True
+81,doctor office,cali,9,3082624037.0,False
+82,jumbo,bogota,20,3050169256.0,True
+83,steam,bogota,20,sin_telefono,False
+84,nombre 84,cali,8,sin_telefono,True
+85,hbo max,pereira,19,3092762930.0,True
+86,amazon,medellin,1,3033744098.0,False
+87,cruz verde,cartagena,15,sin_telefono,True
+88,salon belleza,pereira,13,3017555124.0,True
+89,spotify,barranquilla,5,3012010557.0,False
+90,farmacia ahumada,cali,6,3061536183.0,True
+91,rappi,bogota,10,3033515874.0,True
+92,nombre 92,cali,2,3045649590.0,True
+93,doctor office,bucaramanga,7,sin_telefono,True
+94,spa relax,medellin,11,3021209733.0,False
+95,didi,medellin,20,sin_telefono,False
+96,cine colombia,cartagena,16,3037360776.0,True
+97,makro,cartagena,10,3010023164.0,True
+98,twitch,medellin,9,3023300888.0,True
+99,amazon,bogota,11,3063448566.0,True
+100,cinepolis,cali,20,3096858737.0,False
+101,shein,bogota,12,3080687327.0,False
+102,linio,bucaramanga,2,3054993302.0,False
+103,makro,pereira,8,3015551605.0,False
+104,epic games,cali,19,3095282038.0,True
+105,nombre 105,barranquilla,1,3048265099.0,True
+106,voit,bogota,3,3091233568.0,True
+107,salon belleza,bogota,20,sin_telefono,False
+108,nombre 108,medellin,10,3067766974.0,True
+109,almacenes éxito,bucaramanga,12,3039134479.0,True
+110,droguería la pastilla,bucaramanga,13,3033325874.0,True
+111,taxi,medellin,17,3079181110.0,True
+112,alkosto,bogota,13,3053094804.0,True
+113,nombre 113,cartagena,1,sin_telefono,False
+114,peluquería style,cali,20,3027767783.0,False
+115,cinepolis,medellin,11,3083543990.0,False
+116,beat,bogota,8,3016540262.0,True
+117,youtube premium,cali,3,sin_telefono,True
+118,cruz verde,medellin,18,3063855512.0,False
+119,carrefour,cali,15,3041920596.0,True
+120,steam,medellin,7,sin_telefono,True

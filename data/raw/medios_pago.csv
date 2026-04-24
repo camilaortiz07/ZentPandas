@@ -1,21 +1,101 @@
 medio_id,nombre_medio,tipo,banco
 1,Visa Clásica,Crédito,Bancolombia
-2,Mastercard Gold,Crédito,Davivienda
-3,Débito Ahorros,Débito,Bancolombia
+2,MASTERCARD GOLD,crédito,Davivienda
+3,Débito Ahorros,DÉBITO,Bancolombia
 4,Nequi,Digital,Nequi
-5,Daviplata,Digital,Davivienda
+5,daviplata,digital,Davivienda
 6,PSE,Transferencia,Varios
-7,Efectivo,Efectivo,
-8,amex platinum,Crédito,American Express
+7,Efectivo,EFECTIVO,
+8,AMEX PLATINUM,crédito,American Express
 9,Visa Débito,Débito,BBVA
-10,Mastercard Platinum,Crédito,Scotiabank
-11,VISA SIGNATURE,crédito,Bancolombia
-12,Débito Corriente,Débito,
-13,rapipago,Digital,RapiPago
-14,Mastercard débito,Débito,Davivienda
-15,PayPal,Digital,PayPal
+10,Mastercard Platinum,CRÉDITO,Scotiabank
+11,VISA SIGNATURE,Crédito,Bancolombia
+12,Débito Corriente,débito,
+13,RAPIPAGO,Digital,RapiPago
+14,mastercard débito,Débito,Davivienda
+15,PayPal,digital,PayPal
 16,Tarjeta Regalo,Prepago,
-17,Visa Infinite,Crédito,BBVA
+17,Visa Infinite,CRÉDITO,BBVA
 18,Débito Ahorros,Débito,Bancolombia
 19,,Crédito,Citibank
 20,Código QR,digital,
+21,Verifone,digital,
+22,,Efectivo,BANCOLOMBIA
+23,Falabella,Prepago,
+24,MercadoPago,DIGITAL,
+25,iZettle,Transferencia,PayPal
+26,Redsys,Digital,American Express
+27,Redsys,Transferencia,BANCOLOMBIA
+28,Conekta,Crédito,PayPal
+29,Verifone,Transferencia,Nequi
+30,Falabella,digital,
+31,,Efectivo,PayPal
+32,Google Pay,Crédito,American Express
+33,MercadoPago,digital,
+34,Culqi,Crédito,Citibank
+35,Stripe,Prepago,Bancolombia
+36,Verifone,DÉBITO,
+37,Square,Digital,
+38,PagoNxt,DÉBITO,BBVA
+39,FirstData,Débito,Bancolombia
+40,,Transferencia,American Express
+41,,digital,BBVA
+42,Square,crédito,
+43,MercadoPago,DÉBITO,
+44,SumUp,Cheque,RapiPago
+45,Stripe,DIGITAL,Varios
+46,,débito,DAVIVIENDA
+47,Redsys,DÉBITO,
+48,PayU,DIGITAL,DAVIVIENDA
+49,Ingenico,Efectivo,
+50,,Digital,
+51,Square,Débito,Bancolombia
+52,Samsung Pay,Transferencia,
+53,OpenPay,crédito,Citibank
+54,,Débito,
+55,OpenPay,crédito,Scotiabank
+56,SumUp,Transferencia,PayPal
+57,MercadoPago,Cheque,Bancolombia
+58,tuya,débito,DAVIVIENDA
+59,Kushki,Débito,Scotiabank
+60,éxito,,Varios
+61,ARP,Efectivo,
+62,Square,DÉBITO,DAVIVIENDA
+63,Bitcoin,,
+64,,digital,BANCOLOMBIA
+65,Ingenico,débito,Nequi
+66,,Débito,DAVIVIENDA
+67,OpenPay,Prepago,BBVA
+68,Square,Prepago,RapiPago
+69,Conekta,CRÉDITO,
+70,iZettle,DIGITAL,
+71,,débito,RapiPago
+72,Stripe,DIGITAL,American Express
+73,APPLE PAY,Efectivo,Davivienda
+74,Verifone,Crédito,
+75,,Crédito,Davivienda
+76,Ethereum,débito,PayPal
+77,Conekta,crédito,
+78,SumUp,CRÉDITO,PayPal
+79,Conekta,Débito,
+80,éxito,Efectivo,PayPal
+81,,DIGITAL,PayPal
+82,SumUp,Crédito,PayPal
+83,Ethereum,digital,
+84,MercadoPago,DIGITAL,Davivienda
+85,,Cheque,DAVIVIENDA
+86,iZettle,digital,RapiPago
+87,OpenPay,DÉBITO,Citibank
+88,tuya,Transferencia,
+89,Conekta,crédito,Scotiabank
+90,tuya,Efectivo,Citibank
+91,MercadoPago,Transferencia,
+92,,digital,
+93,Kushki,Digital,
+94,CARREFOUR,Efectivo,Scotiabank
+95,SumUp,Débito,
+96,éxito,débito,Davivienda
+97,tuya,Crédito,
+98,,Crédito,RapiPago
+99,D1,,
+100,,Transferencia,Davivienda

@@ -1,34 +1,970 @@
 [
-  {"comercio_id": 1, "nombre": "Éxito", "ciudad": "Medellín", "categoria_id": 1, "telefono": "3001234567", "activo": true},
-  {"comercio_id": 2, "nombre": "Rappi", "ciudad": "Bogotá", "categoria_id": 1, "telefono": null, "activo": true},
-  {"comercio_id": 3, "nombre": "UBER", "ciudad": "Cali", "categoria_id": 2, "telefono": "3109876543", "activo": true},
-  {"comercio_id": 4, "nombre": "Cinemark", "ciudad": "Medellín", "categoria_id": 3, "telefono": "6042345678", "activo": true},
-  {"comercio_id": 5, "nombre": "Drogas La Rebaja", "ciudad": "bogotá", "categoria_id": 4, "telefono": "3205556677", "activo": true},
-  {"comercio_id": 6, "nombre": "Zara", "ciudad": "Cartagena", "categoria_id": 5, "telefono": "3154443322", "activo": false},
-  {"comercio_id": 7, "nombre": "falabella", "ciudad": "Bogotá", "categoria_id": 5, "telefono": "6013456789", "activo": true},
-  {"comercio_id": 8, "nombre": "Apple Store", "ciudad": "Medellín", "categoria_id": 6, "telefono": null, "activo": true},
-  {"comercio_id": 9, "nombre": "Samsung", "ciudad": "Cali", "categoria_id": 6, "telefono": "3187778899", "activo": true},
-  {"comercio_id": 10, "nombre": "IKEA", "ciudad": "Barranquilla", "categoria_id": 7, "telefono": "3001112233", "activo": true},
-  {"comercio_id": 11, "nombre": "Platzi", "ciudad": "Bogotá", "categoria_id": 8, "telefono": null, "activo": true},
-  {"comercio_id": 12, "nombre": "Avianca", "ciudad": "Bogotá", "categoria_id": 9, "telefono": "6017003434", "activo": true},
-  {"comercio_id": 13, "nombre": "Carulla", "ciudad": "medellín", "categoria_id": 1, "telefono": "3002223344", "activo": true},
-  {"comercio_id": 14, "nombre": "InDriver", "ciudad": "Pereira", "categoria_id": 2, "telefono": "3135556677", "activo": true},
-  {"comercio_id": 15, "nombre": "Cine Colombia", "ciudad": "Cali", "categoria_id": 3, "telefono": "6024567890", "activo": true},
-  {"comercio_id": 16, "nombre": "Cruz Verde", "ciudad": "Bucaramanga", "categoria_id": 4, "telefono": null, "activo": false},
-  {"comercio_id": 17, "nombre": "H&M", "ciudad": "Bogotá", "categoria_id": 5, "telefono": "3166667788", "activo": true},
-  {"comercio_id": 18, "nombre": "DECATHLON", "ciudad": "Medellín", "categoria_id": 5, "telefono": "3019998877", "activo": true},
-  {"comercio_id": 19, "nombre": "Linio", "ciudad": "Bogotá", "categoria_id": 6, "telefono": "3204445566", "activo": true},
-  {"comercio_id": 20, "nombre": "Mercado Libre", "ciudad": null, "categoria_id": 6, "telefono": "3111234567", "activo": true},
-  {"comercio_id": 21, "nombre": "Homecenter", "ciudad": "Cali", "categoria_id": 7, "telefono": "6025678901", "activo": true},
-  {"comercio_id": 22, "nombre": "Udemy", "ciudad": "Bogotá", "categoria_id": 8, "telefono": null, "activo": true},
-  {"comercio_id": 23, "nombre": "  PetCo  ", "ciudad": "Medellín", "categoria_id": 11, "telefono": "3012345111", "activo": true},
-  {"comercio_id": 24, "nombre": "SMARTFIT", "ciudad": "bogota", "categoria_id": 12, "telefono": "3023456222", "activo": true},
-  {"comercio_id": 25, "nombre": "El Corral", "ciudad": "Medellín", "categoria_id": 13, "telefono": "3034567333", "activo": "si"},
-  {"comercio_id": 26, "nombre": "Restaurante el buen sabor", "ciudad": "Cali", "categoria_id": 13, "telefono": null, "activo": true},
-  {"comercio_id": 27, "nombre": "Netflix", "ciudad": null, "categoria_id": 16, "telefono": null, "activo": true},
-  {"comercio_id": 28, "nombre": "Spotify", "ciudad": null, "categoria_id": 16, "telefono": null, "activo": 1},
-  {"comercio_id": 29, "nombre": "terpel", "ciudad": "Barranquilla", "categoria_id": 18, "telefono": "3045678444", "activo": true},
-  {"comercio_id": 30, "nombre": "Biomax", "ciudad": "pereira", "categoria_id": 18, "telefono": "3056789555", "activo": true},
-  {"comercio_id": 31, "nombre": "Claro", "ciudad": "Bogotá", "categoria_id": 20, "telefono": "018000910101", "activo": true},
-  {"comercio_id": 4, "nombre": "Cinemark Duplicado", "ciudad": "Medellín", "categoria_id": 3, "telefono": "6042345678", "activo": true}
+  {
+    "comercio_id": 1,
+    "nombre": "Éxito",
+    "ciudad": "Medellín",
+    "categoria_id": 1,
+    "telefono": "3001234567",
+    "activo": true
+  },
+  {
+    "comercio_id": 2,
+    "nombre": "RAPPI",
+    "ciudad": "Bogotá",
+    "categoria_id": 1,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 3,
+    "nombre": "uber",
+    "ciudad": "Cali",
+    "categoria_id": 2,
+    "telefono": "3109876543",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 4,
+    "nombre": "Cinemark",
+    "ciudad": "MEDELLÍN",
+    "categoria_id": 3,
+    "telefono": "6042345678",
+    "activo": true
+  },
+  {
+    "comercio_id": 4,
+    "nombre": "Almacenes Éxito",
+    "ciudad": "medellin",
+    "categoria_id": 19,
+    "telefono": null,
+    "activo": 0
+  },
+  {
+    "comercio_id": 5,
+    "nombre": "Novaventa",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 4,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 6,
+    "nombre": "Doctor Office",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 19,
+    "telefono": "3035970583",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 7,
+    "nombre": "Apple Music",
+    "ciudad": "BOGOTA",
+    "categoria_id": 1,
+    "telefono": "3024953414",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 8,
+    "nombre": "HBO Max",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 4,
+    "telefono": null,
+    "activo": 0
+  },
+  {
+    "comercio_id": 9,
+    "nombre": "InDriver",
+    "ciudad": "medellin",
+    "categoria_id": 10,
+    "telefono": "3035251373",
+    "activo": true
+  },
+  {
+    "comercio_id": 10,
+    "nombre": "Hospital Clínico",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 3,
+    "telefono": "3055901946",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 11,
+    "nombre": "Novaventa",
+    "ciudad": "CALI",
+    "categoria_id": 5,
+    "telefono": null,
+    "activo": 1
+  },
+  {
+    "comercio_id": 12,
+    "nombre": "Spotify",
+    "ciudad": "BOGOTA",
+    "categoria_id": 10,
+    "telefono": null,
+    "activo": 1
+  },
+  {
+    "comercio_id": 13,
+    "nombre": "Farmacia Botica",
+    "ciudad": "Pereira",
+    "categoria_id": 9,
+    "telefono": "3099877194",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 14,
+    "nombre": "InDriver",
+    "ciudad": "Barranquilla",
+    "categoria_id": 14,
+    "telefono": "3072143361",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 15,
+    "nombre": "Cine Colombia",
+    "ciudad": "Cali",
+    "categoria_id": 3,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 16,
+    "nombre": "Droguería La Pastilla",
+    "ciudad": "Bucaramanga",
+    "categoria_id": 17,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 17,
+    "nombre": "NOMBRE 17",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 4,
+    "telefono": "3088972364",
+    "activo": 0
+  },
+  {
+    "comercio_id": 18,
+    "nombre": "Salon Belleza",
+    "ciudad": "bogota",
+    "categoria_id": 4,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 19,
+    "nombre": "Beat",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 4,
+    "telefono": "3021467507",
+    "activo": true
+  },
+  {
+    "comercio_id": 20,
+    "nombre": "InDriver",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 17,
+    "telefono": "3074085720",
+    "activo": 0
+  },
+  {
+    "comercio_id": 21,
+    "nombre": "Droguería La Pastilla",
+    "ciudad": "Bucaramanga",
+    "categoria_id": 10,
+    "telefono": "3082573623",
+    "activo": 1
+  },
+  {
+    "comercio_id": 22,
+    "nombre": "Amazon",
+    "ciudad": "Bucaramanga",
+    "categoria_id": 5,
+    "telefono": "3032411769",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 23,
+    "nombre": "Almacenes Éxito",
+    "ciudad": "medellin",
+    "categoria_id": 6,
+    "telefono": null,
+    "activo": 1
+  },
+  {
+    "comercio_id": 24,
+    "nombre": "MAKRO",
+    "ciudad": "Cali",
+    "categoria_id": 2,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 25,
+    "nombre": "Beat",
+    "ciudad": "Bogotá",
+    "categoria_id": 13,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 26,
+    "nombre": "Gimnasio Premium",
+    "ciudad": "Cartagena",
+    "categoria_id": 14,
+    "telefono": "3077753964",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 27,
+    "nombre": "NOMBRE 27",
+    "ciudad": "Bogotá",
+    "categoria_id": 7,
+    "telefono": "3056679615",
+    "activo": false
+  },
+  {
+    "comercio_id": 28,
+    "nombre": "Jumbo",
+    "ciudad": "Cartagena",
+    "categoria_id": 17,
+    "telefono": "3089063540",
+    "activo": true
+  },
+  {
+    "comercio_id": 29,
+    "nombre": "Mercado Libre",
+    "ciudad": "Bogotá",
+    "categoria_id": 5,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 30,
+    "nombre": "Jumbo",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 1,
+    "telefono": "3067416432",
+    "activo": true
+  },
+  {
+    "comercio_id": 31,
+    "nombre": "DiDi",
+    "ciudad": "BARRANQUILLA",
+    "categoria_id": 2,
+    "telefono": "3099391633",
+    "activo": true
+  },
+  {
+    "comercio_id": 32,
+    "nombre": "Cruz Verde",
+    "ciudad": "Bogotá",
+    "categoria_id": 18,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 33,
+    "nombre": "Homecenter",
+    "ciudad": "bogota",
+    "categoria_id": 13,
+    "telefono": "3088482298",
+    "activo": 1
+  },
+  {
+    "comercio_id": 34,
+    "nombre": "Linio",
+    "ciudad": "bogota",
+    "categoria_id": 10,
+    "telefono": null,
+    "activo": 1
+  },
+  {
+    "comercio_id": 35,
+    "nombre": "Salon Belleza",
+    "ciudad": "bogota",
+    "categoria_id": 1,
+    "telefono": "3027091833",
+    "activo": true
+  },
+  {
+    "comercio_id": 36,
+    "nombre": "Steam",
+    "ciudad": "BOGOTA",
+    "categoria_id": 5,
+    "telefono": "3029807552",
+    "activo": false
+  },
+  {
+    "comercio_id": 37,
+    "nombre": "Almacenes Éxito",
+    "ciudad": "Manizales",
+    "categoria_id": 10,
+    "telefono": "3080955047",
+    "activo": 1
+  },
+  {
+    "comercio_id": 38,
+    "nombre": "Farmacia Ahumada",
+    "ciudad": "Pereira",
+    "categoria_id": 13,
+    "telefono": "3014455479",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 39,
+    "nombre": "Éxito",
+    "ciudad": "Medellín",
+    "categoria_id": 3,
+    "telefono": "3073972778",
+    "activo": 1
+  },
+  {
+    "comercio_id": 40,
+    "nombre": "Shein",
+    "ciudad": "Cali",
+    "categoria_id": 7,
+    "telefono": "3032025142",
+    "activo": true
+  },
+  {
+    "comercio_id": 41,
+    "nombre": "Doctor Office",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 5,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 42,
+    "nombre": "Rappi",
+    "ciudad": "CALI",
+    "categoria_id": 11,
+    "telefono": "3053777510",
+    "activo": false
+  },
+  {
+    "comercio_id": 43,
+    "nombre": "Beat",
+    "ciudad": "BOGOTA",
+    "categoria_id": 7,
+    "telefono": "3056450940",
+    "activo": true
+  },
+  {
+    "comercio_id": 44,
+    "nombre": "Homecenter",
+    "ciudad": "BOGOTA",
+    "categoria_id": 16,
+    "telefono": "3088140296",
+    "activo": true
+  },
+  {
+    "comercio_id": 45,
+    "nombre": "Cinemark",
+    "ciudad": "Cali",
+    "categoria_id": 4,
+    "telefono": "3096618502",
+    "activo": 1
+  },
+  {
+    "comercio_id": 46,
+    "nombre": "Éxito",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 9,
+    "telefono": "3073745323",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 47,
+    "nombre": "Amazon",
+    "ciudad": "Cali",
+    "categoria_id": 2,
+    "telefono": null,
+    "activo": 1
+  },
+  {
+    "comercio_id": 48,
+    "nombre": "Farmacia Ahumada",
+    "ciudad": null,
+    "categoria_id": 9,
+    "telefono": "3046307452",
+    "activo": 1
+  },
+  {
+    "comercio_id": 49,
+    "nombre": "Rappi",
+    "ciudad": "Bogotá",
+    "categoria_id": 9,
+    "telefono": null,
+    "activo": "si"
+  },
+  {
+    "comercio_id": 50,
+    "nombre": "DiDi",
+    "ciudad": "CALI",
+    "categoria_id": 2,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 51,
+    "nombre": "Peluquería Style",
+    "ciudad": "BARRANQUILLA",
+    "categoria_id": 10,
+    "telefono": "3011431559",
+    "activo": false
+  },
+  {
+    "comercio_id": 52,
+    "nombre": "NOMBRE 52",
+    "ciudad": "Cali",
+    "categoria_id": 18,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 53,
+    "nombre": "NOMBRE 53",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 12,
+    "telefono": "3067246814",
+    "activo": false
+  },
+  {
+    "comercio_id": 54,
+    "nombre": "Jumbo",
+    "ciudad": "CALI",
+    "categoria_id": 6,
+    "telefono": "3075468167",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 55,
+    "nombre": "Steam",
+    "ciudad": "medellin",
+    "categoria_id": 7,
+    "telefono": "3090775000",
+    "activo": false
+  },
+  {
+    "comercio_id": 56,
+    "nombre": "Spotify",
+    "ciudad": "Manizales",
+    "categoria_id": 7,
+    "telefono": "3012966262",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 57,
+    "nombre": "Epic Games",
+    "ciudad": "Barranquilla",
+    "categoria_id": 1,
+    "telefono": "3092640540",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 58,
+    "nombre": "CrossFit",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 3,
+    "telefono": "3091000569",
+    "activo": 1
+  },
+  {
+    "comercio_id": 59,
+    "nombre": "Disney+",
+    "ciudad": "medellin",
+    "categoria_id": 1,
+    "telefono": "3029891553",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 60,
+    "nombre": "Hospital Clínico",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 11,
+    "telefono": "3097643111",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 61,
+    "nombre": "Twitch",
+    "ciudad": "Medellín",
+    "categoria_id": 8,
+    "telefono": "3075271610",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 62,
+    "nombre": "DiDi",
+    "ciudad": "Manizales",
+    "categoria_id": 19,
+    "telefono": "3059325558",
+    "activo": 0
+  },
+  {
+    "comercio_id": 63,
+    "nombre": "Novaventa",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 17,
+    "telefono": "3089190122",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 64,
+    "nombre": "Farmacia Ahumada",
+    "ciudad": "bogota",
+    "categoria_id": 4,
+    "telefono": "3041648296",
+    "activo": 1
+  },
+  {
+    "comercio_id": 65,
+    "nombre": "Jumbo",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 11,
+    "telefono": "3084124108",
+    "activo": 0
+  },
+  {
+    "comercio_id": 66,
+    "nombre": "Apple Music",
+    "ciudad": "Cali",
+    "categoria_id": 6,
+    "telefono": null,
+    "activo": "si"
+  },
+  {
+    "comercio_id": 67,
+    "nombre": "Cine Colombia",
+    "ciudad": "Cartagena",
+    "categoria_id": 6,
+    "telefono": null,
+    "activo": "no"
+  },
+  {
+    "comercio_id": 68,
+    "nombre": "Amazon",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 9,
+    "telefono": "3037444632",
+    "activo": 1
+  },
+  {
+    "comercio_id": 69,
+    "nombre": "Beat",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 15,
+    "telefono": null,
+    "activo": "no"
+  },
+  {
+    "comercio_id": 70,
+    "nombre": "Shein",
+    "ciudad": "Pereira",
+    "categoria_id": 1,
+    "telefono": "3052346216",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 71,
+    "nombre": "InDriver",
+    "ciudad": "Cartagena",
+    "categoria_id": 18,
+    "telefono": "3088007121",
+    "activo": 0
+  },
+  {
+    "comercio_id": 72,
+    "nombre": "Novaventa",
+    "ciudad": "Bucaramanga",
+    "categoria_id": 11,
+    "telefono": "3077970689",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 73,
+    "nombre": "Gimnasio Premium",
+    "ciudad": "medellin",
+    "categoria_id": 5,
+    "telefono": "3014970191",
+    "activo": true
+  },
+  {
+    "comercio_id": 74,
+    "nombre": "Rappi",
+    "ciudad": "CALI",
+    "categoria_id": 6,
+    "telefono": "3099744215",
+    "activo": 0
+  },
+  {
+    "comercio_id": 75,
+    "nombre": "Shein",
+    "ciudad": "CALI",
+    "categoria_id": 7,
+    "telefono": "3045837010",
+    "activo": 0
+  },
+  {
+    "comercio_id": 76,
+    "nombre": "InDriver",
+    "ciudad": "medellin",
+    "categoria_id": 18,
+    "telefono": "3059757511",
+    "activo": true
+  },
+  {
+    "comercio_id": 77,
+    "nombre": "Linio",
+    "ciudad": "Bogotá",
+    "categoria_id": 18,
+    "telefono": "3026550759",
+    "activo": 0
+  },
+  {
+    "comercio_id": 78,
+    "nombre": "Spotify",
+    "ciudad": "Barranquilla",
+    "categoria_id": 4,
+    "telefono": "3022842566",
+    "activo": 1
+  },
+  {
+    "comercio_id": 79,
+    "nombre": "NOMBRE 79",
+    "ciudad": "BARRANQUILLA",
+    "categoria_id": 6,
+    "telefono": "3044456039",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 80,
+    "nombre": "AliExpress",
+    "ciudad": null,
+    "categoria_id": 18,
+    "telefono": null,
+    "activo": "si"
+  },
+  {
+    "comercio_id": 81,
+    "nombre": "Doctor Office",
+    "ciudad": "CALI",
+    "categoria_id": 9,
+    "telefono": "3082624037",
+    "activo": 0
+  },
+  {
+    "comercio_id": 82,
+    "nombre": "Jumbo",
+    "ciudad": "Bogotá",
+    "categoria_id": 20,
+    "telefono": "3050169256",
+    "activo": 1
+  },
+  {
+    "comercio_id": 83,
+    "nombre": "Steam",
+    "ciudad": "BOGOTA",
+    "categoria_id": 20,
+    "telefono": null,
+    "activo": 0
+  },
+  {
+    "comercio_id": 84,
+    "nombre": "NOMBRE 84",
+    "ciudad": "Cali",
+    "categoria_id": 8,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 85,
+    "nombre": "HBO Max",
+    "ciudad": "Pereira",
+    "categoria_id": 19,
+    "telefono": "3092762930",
+    "activo": true
+  },
+  {
+    "comercio_id": 86,
+    "nombre": "Amazon",
+    "ciudad": "Medellín",
+    "categoria_id": 1,
+    "telefono": "3033744098",
+    "activo": 0
+  },
+  {
+    "comercio_id": 87,
+    "nombre": "Cruz Verde",
+    "ciudad": "Cartagena",
+    "categoria_id": 15,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 88,
+    "nombre": "Salon Belleza",
+    "ciudad": "Pereira",
+    "categoria_id": 13,
+    "telefono": "3017555124",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 89,
+    "nombre": "Spotify",
+    "ciudad": "Barranquilla",
+    "categoria_id": 5,
+    "telefono": "3012010557",
+    "activo": 0
+  },
+  {
+    "comercio_id": 90,
+    "nombre": "Farmacia Ahumada",
+    "ciudad": "CALI",
+    "categoria_id": 6,
+    "telefono": "3061536183",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 91,
+    "nombre": "Rappi",
+    "ciudad": "BOGOTA",
+    "categoria_id": 10,
+    "telefono": "3033515874",
+    "activo": true
+  },
+  {
+    "comercio_id": 92,
+    "nombre": "NOMBRE 92",
+    "ciudad": "Cali",
+    "categoria_id": 2,
+    "telefono": "3045649590",
+    "activo": 1
+  },
+  {
+    "comercio_id": 93,
+    "nombre": "Doctor Office",
+    "ciudad": "Bucaramanga",
+    "categoria_id": 7,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 94,
+    "nombre": "SPA Relax",
+    "ciudad": "Medellín",
+    "categoria_id": 11,
+    "telefono": "3021209733",
+    "activo": 0
+  },
+  {
+    "comercio_id": 95,
+    "nombre": "DiDi",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 20,
+    "telefono": null,
+    "activo": 0
+  },
+  {
+    "comercio_id": 96,
+    "nombre": "Cine Colombia",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 16,
+    "telefono": "3037360776",
+    "activo": true
+  },
+  {
+    "comercio_id": 97,
+    "nombre": "MAKRO",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 10,
+    "telefono": "3010023164",
+    "activo": true
+  },
+  {
+    "comercio_id": 98,
+    "nombre": "Twitch",
+    "ciudad": null,
+    "categoria_id": 9,
+    "telefono": "3023300888",
+    "activo": 1
+  },
+  {
+    "comercio_id": 99,
+    "nombre": "Amazon",
+    "ciudad": "BOGOTA",
+    "categoria_id": 11,
+    "telefono": "3063448566",
+    "activo": true
+  },
+  {
+    "comercio_id": 100,
+    "nombre": "Cinepolis",
+    "ciudad": "CALI",
+    "categoria_id": 20,
+    "telefono": "3096858737",
+    "activo": false
+  },
+  {
+    "comercio_id": 101,
+    "nombre": "Shein",
+    "ciudad": "bogota",
+    "categoria_id": 12,
+    "telefono": "3080687327",
+    "activo": 0
+  },
+  {
+    "comercio_id": 102,
+    "nombre": "Linio",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 2,
+    "telefono": "3054993302",
+    "activo": false
+  },
+  {
+    "comercio_id": 103,
+    "nombre": "MAKRO",
+    "ciudad": "Pereira",
+    "categoria_id": 8,
+    "telefono": "3015551605",
+    "activo": 0
+  },
+  {
+    "comercio_id": 104,
+    "nombre": "Epic Games",
+    "ciudad": "Cali",
+    "categoria_id": 19,
+    "telefono": "3095282038",
+    "activo": true
+  },
+  {
+    "comercio_id": 105,
+    "nombre": "NOMBRE 105",
+    "ciudad": "Barranquilla",
+    "categoria_id": 1,
+    "telefono": "3048265099",
+    "activo": true
+  },
+  {
+    "comercio_id": 106,
+    "nombre": "Voit",
+    "ciudad": "bogota",
+    "categoria_id": 3,
+    "telefono": "3091233568",
+    "activo": 1
+  },
+  {
+    "comercio_id": 107,
+    "nombre": "Salon Belleza",
+    "ciudad": "Bogotá",
+    "categoria_id": 20,
+    "telefono": null,
+    "activo": false
+  },
+  {
+    "comercio_id": 108,
+    "nombre": "NOMBRE 108",
+    "ciudad": null,
+    "categoria_id": 10,
+    "telefono": "3067766974",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 109,
+    "nombre": "Almacenes Éxito",
+    "ciudad": "Bucaramanga",
+    "categoria_id": 12,
+    "telefono": "3039134479",
+    "activo": 1
+  },
+  {
+    "comercio_id": 110,
+    "nombre": "Droguería La Pastilla",
+    "ciudad": "BUCARAMANGA",
+    "categoria_id": 13,
+    "telefono": "3033325874",
+    "activo": "no"
+  },
+  {
+    "comercio_id": 111,
+    "nombre": "Taxi",
+    "ciudad": "medellin",
+    "categoria_id": 17,
+    "telefono": "3079181110",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 112,
+    "nombre": "Alkosto",
+    "ciudad": "bogota",
+    "categoria_id": 13,
+    "telefono": "3053094804",
+    "activo": "si"
+  },
+  {
+    "comercio_id": 113,
+    "nombre": "NOMBRE 113",
+    "ciudad": "CARTAGENA",
+    "categoria_id": 1,
+    "telefono": null,
+    "activo": 0
+  },
+  {
+    "comercio_id": 114,
+    "nombre": "Peluquería Style",
+    "ciudad": "CALI",
+    "categoria_id": 20,
+    "telefono": "3027767783",
+    "activo": false
+  },
+  {
+    "comercio_id": 115,
+    "nombre": "Cinepolis",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 11,
+    "telefono": "3083543990",
+    "activo": false
+  },
+  {
+    "comercio_id": 116,
+    "nombre": "Beat",
+    "ciudad": "Bogotá",
+    "categoria_id": 8,
+    "telefono": "3016540262",
+    "activo": 1
+  },
+  {
+    "comercio_id": 117,
+    "nombre": "YouTube Premium",
+    "ciudad": "CALI",
+    "categoria_id": 3,
+    "telefono": null,
+    "activo": true
+  },
+  {
+    "comercio_id": 118,
+    "nombre": "Cruz Verde",
+    "ciudad": "Medellín",
+    "categoria_id": 18,
+    "telefono": "3063855512",
+    "activo": false
+  },
+  {
+    "comercio_id": 119,
+    "nombre": "Carrefour",
+    "ciudad": "CALI",
+    "categoria_id": 15,
+    "telefono": "3041920596",
+    "activo": true
+  },
+  {
+    "comercio_id": 120,
+    "nombre": "Steam",
+    "ciudad": "MEDELLIN",
+    "categoria_id": 7,
+    "telefono": null,
+    "activo": 1
+  }
 ]

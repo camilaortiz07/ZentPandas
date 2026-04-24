@@ -17,11 +17,11 @@ def cargar_json(ruta):
 def cargar_todos(base='data/raw/'):
     print("\nCargando todos los archivos")
     datos = {
-        'usuarios': cargar_csv(base + 'usuarios.csv'),
-        'categorias': cargar_csv(base + 'categorias.csv'),
-        'medios_pago': cargar_csv(base + 'medios_pago.csv'),
-        'comercios': cargar_csv(base + 'comercios.csv'),
-        'gastos': cargar_json(base + 'gastos.json'),
+        'usuarios'    : cargar_csv(base + 'usuarios.csv'),
+        'categorias'  : cargar_csv(base + 'categorias.csv'),
+        'medios_pago' : cargar_csv(base + 'medios_pago.csv'),
+        'comercios'   : cargar_json(base + 'comercios.json'),
+        'gastos'      : cargar_json(base + 'gastos.json'),
     }
     
     print("\nTodos los archivos cargados exitosamente.")

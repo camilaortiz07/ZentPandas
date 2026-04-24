@@ -1,0 +1,112 @@
+gasto_id,usuario_id,comercio_id,medio_id,monto,fecha,descripcion,estado,nombre_medio,tipo
+1,1,1,3,85000.0,2026-01-05,mercado semanal,aprobado,débito ahorros,débito
+2,2,12,1,450000.0,2026-01-08,tiquete bogotá-cartagena,aprobado,visa clásica,crédito
+3,3,3,4,12500.0,2026-01-10,sin_descripcion,aprobado,nequi,digital
+3,96,20,14,2486098.0,2026-04-06,transporte,aprobado,mastercard débito,débito
+5,50,35,14,1051581.0,2026-01-08,sin_descripcion,aprobado,mastercard débito,débito
+7,19,78,5,615213.0,2026-03-13,curso,aprobado,daviplata,digital
+9,33,26,17,2540585.0,2026-03-23,hogar,rechazado,visa infinite,crédito
+10,114,112,8,2401114.0,2026-04-03,servicios,pendiente,amex platinum,crédito
+11,50,86,16,2809539.0,2026-02-25,ropa,pendiente,tarjeta regalo,prepago
+12,15,91,1,1786493.0,2026-04-08,hogar,aprobado,visa clásica,crédito
+13,119,80,5,1444439.0,2026-01-11,compra,aprobado,daviplata,digital
+14,54,16,20,1348866.0,2026-01-20,libro,aprobado,código qr,digital
+15,72,27,17,216568.0,2026-02-03,sin_descripcion,aprobado,visa infinite,crédito
+17,70,38,7,1934473.0,2026-03-22,transporte,rechazado,efectivo,efectivo
+18,34,74,8,466976.0,2026-04-19,servicios,aprobado,amex platinum,crédito
+19,101,32,7,2704818.0,2026-04-25,gasto,aprobado,efectivo,efectivo
+20,119,40,14,2893670.0,2026-03-18,educación,pendiente,mastercard débito,débito
+22,27,33,3,1211394.0,2026-02-19,compra,pendiente,débito ahorros,débito
+23,68,74,3,2763112.0,2026-01-22,transporte,rechazado,débito ahorros,débito
+24,55,31,8,901161.0,2026-01-18,mercado,pendiente,amex platinum,crédito
+25,79,108,2,1052079.0,2026-01-27,curso,rechazado,mastercard gold,crédito
+26,38,33,7,1896199.0,2026-04-27,educación,rechazado,efectivo,efectivo
+27,53,89,8,440600.0,2026-03-22,membresía,rechazado,amex platinum,crédito
+30,50,70,19,952333.0,2026-01-14,salud,pendiente,,
+31,74,95,12,1142679.0,2026-01-31,viajes,rechazado,débito corriente,débito
+33,48,85,16,2512453.0,2026-03-16,curso,pendiente,tarjeta regalo,prepago
+34,25,100,5,1244621.0,2026-02-02,transporte,aprobado,daviplata,digital
+36,66,79,7,1524392.0,2026-01-12,educación,pendiente,efectivo,efectivo
+37,16,110,8,2077277.0,2026-03-17,transporte,rechazado,amex platinum,crédito
+38,47,109,8,1953511.0,2026-02-16,entretenimiento,aprobado,amex platinum,crédito
+39,53,62,1,1984702.0,2026-01-31,comida,pendiente,visa clásica,crédito
+40,95,91,2,1759991.0,2026-02-21,transacción,pendiente,mastercard gold,crédito
+41,69,69,14,2467476.0,2026-01-13,curso,aprobado,mastercard débito,débito
+42,46,17,2,1369328.0,2026-02-27,viajes,rechazado,mastercard gold,crédito
+43,77,87,17,2175016.0,2026-02-01,libro,pendiente,visa infinite,crédito
+45,104,56,18,1491700.0,2026-02-28,suscripción,pendiente,débito ahorros,débito
+46,71,82,18,1271979.0,2026-02-18,salud,pendiente,débito ahorros,débito
+47,23,102,1,1215259.0,2026-04-15,viajes,pendiente,visa clásica,crédito
+48,109,98,5,1868106.0,2026-02-04,salud,aprobado,daviplata,digital
+49,12,89,3,675789.0,2026-02-23,transacción,rechazado,débito ahorros,débito
+50,83,28,18,1985509.0,2026-01-01,suscripción,rechazado,débito ahorros,débito
+53,89,57,18,1713988.0,2026-04-18,servicios,pendiente,débito ahorros,débito
+54,70,88,17,2108996.0,2026-03-29,comida,pendiente,visa infinite,crédito
+55,6,6,15,2413566.0,2026-01-09,mercado,rechazado,paypal,digital
+56,18,100,14,843029.0,2026-04-03,entretenimiento,rechazado,mastercard débito,débito
+57,104,106,15,2794563.0,2026-03-12,gasto,aprobado,paypal,digital
+58,39,83,19,2569703.0,2026-02-27,libro,pendiente,,
+59,33,110,5,2539469.0,2026-03-30,entretenimiento,pendiente,daviplata,digital
+61,77,56,20,1720582.0,2026-02-05,curso,aprobado,código qr,digital
+62,120,23,13,1260471.0,2026-02-07,pago,aprobado,rapipago,digital
+64,67,33,18,2611802.0,2026-01-05,ropa,rechazado,débito ahorros,débito
+66,56,21,19,1211252.0,2026-03-23,tecnología,aprobado,,
+67,26,60,6,2383202.0,2026-02-19,transporte,rechazado,pse,transferencia
+72,64,77,15,1546288.0,2026-03-10,pago,pendiente,paypal,digital
+75,66,54,14,682849.0,2026-01-10,hogar,pendiente,mastercard débito,débito
+76,115,43,11,2049906.0,2026-03-01,educación,pendiente,visa signature,crédito
+77,14,99,18,1004683.0,2026-01-17,sin_descripcion,pendiente,débito ahorros,débito
+79,86,32,11,2420116.0,2026-03-17,pago,pendiente,visa signature,crédito
+82,33,95,17,1640456.0,2026-03-15,entretenimiento,rechazado,visa infinite,crédito
+84,58,76,7,1726929.0,2026-04-05,servicios,rechazado,efectivo,efectivo
+85,13,90,2,2796905.0,2026-01-01,transporte,aprobado,mastercard gold,crédito
+86,39,100,17,2149493.0,2026-03-13,viajes,pendiente,visa infinite,crédito
+87,33,61,2,2619870.0,2026-03-08,pago,pendiente,mastercard gold,crédito
+89,4,112,15,2764199.0,2026-04-28,comida,pendiente,paypal,digital
+90,21,120,13,522200.0,2026-03-09,comida,pendiente,rapipago,digital
+92,64,60,3,2784395.0,2026-04-13,hogar,rechazado,débito ahorros,débito
+93,25,71,10,2168727.0,2026-04-06,curso,pendiente,mastercard platinum,crédito
+94,85,11,17,1858366.0,2026-01-22,curso,aprobado,visa infinite,crédito
+96,82,39,8,2829305.0,2026-01-18,servicios,aprobado,amex platinum,crédito
+97,74,97,5,1179475.0,2026-04-09,dinero,pendiente,daviplata,digital
+98,93,95,8,597934.0,2026-04-28,mercado,pendiente,amex platinum,crédito
+99,110,96,2,2493928.0,2026-02-16,hogar,pendiente,mastercard gold,crédito
+100,88,57,1,1539055.0,2026-01-07,entretenimiento,aprobado,visa clásica,crédito
+101,98,62,2,1949415.0,2026-01-14,suscripción,pendiente,mastercard gold,crédito
+104,21,19,4,937154.0,2026-03-06,curso,pendiente,nequi,digital
+105,38,26,16,2343971.0,2026-02-07,servicios,aprobado,tarjeta regalo,prepago
+106,1,93,7,2132267.0,2026-04-05,curso,pendiente,efectivo,efectivo
+107,18,92,7,2624197.0,2026-04-16,viajes,pendiente,efectivo,efectivo
+108,69,26,17,1193931.0,2026-03-10,sin_descripcion,pendiente,visa infinite,crédito
+109,95,40,13,1470805.0,2026-01-16,transacción,pendiente,rapipago,digital
+110,106,89,2,1426913.0,2026-02-09,dinero,aprobado,mastercard gold,crédito
+111,120,93,12,907018.0,2026-04-28,pago,pendiente,débito corriente,débito
+112,26,20,8,1559948.0,2026-03-08,viajes,pendiente,amex platinum,crédito
+114,97,110,13,85107.0,2026-02-26,sin_descripcion,aprobado,rapipago,digital
+115,119,91,16,640529.0,2026-02-26,educación,pendiente,tarjeta regalo,prepago
+116,66,90,10,107359.0,2026-03-10,dinero,pendiente,mastercard platinum,crédito
+118,69,111,13,1536057.0,2026-04-22,suscripción,pendiente,rapipago,digital
+119,47,82,5,2045673.0,2026-02-13,salud,pendiente,daviplata,digital
+120,88,112,19,2501832.0,2026-01-09,mercado,rechazado,,
+122,37,79,20,1950762.0,2026-03-01,transporte,pendiente,código qr,digital
+123,40,71,13,1319161.0,2026-03-20,pago,aprobado,rapipago,digital
+124,65,97,9,1809578.0,2026-03-29,compra,pendiente,visa débito,débito
+125,95,62,10,36642.0,2026-03-09,entretenimiento,pendiente,mastercard platinum,crédito
+126,98,13,13,2375999.0,2026-04-06,servicios,pendiente,rapipago,digital
+127,2,23,14,646384.0,2026-03-31,suscripción,pendiente,mastercard débito,débito
+130,19,97,14,1436123.0,2026-02-05,viajes,rechazado,mastercard débito,débito
+131,23,67,19,2644530.0,2026-03-31,ropa,pendiente,,
+133,32,12,7,365846.0,2026-03-10,dinero,aprobado,efectivo,efectivo
+134,101,37,11,63093.0,2026-04-16,curso,pendiente,visa signature,crédito
+136,52,99,18,1194650.0,2026-01-13,entretenimiento,aprobado,débito ahorros,débito
+137,39,116,1,2452908.0,2026-01-15,viajes,aprobado,visa clásica,crédito
+140,37,61,20,2679179.0,2026-03-07,entretenimiento,rechazado,código qr,digital
+141,57,23,14,2193438.0,2026-04-16,dinero,pendiente,mastercard débito,débito
+142,92,17,16,2241474.0,2026-02-26,gasto,pendiente,tarjeta regalo,prepago
+143,8,2,12,2571938.0,2026-03-22,viajes,aprobado,débito corriente,débito
+144,16,8,9,2557472.0,2026-03-13,membresía,pendiente,visa débito,débito
+145,36,32,9,2995167.0,2026-04-28,viajes,pendiente,visa débito,débito
+146,83,116,9,1492739.0,2026-04-14,curso,pendiente,visa débito,débito
+147,86,104,8,1175462.0,2026-03-01,compra,pendiente,amex platinum,crédito
+148,54,84,2,1856731.0,2026-02-23,educación,pendiente,mastercard gold,crédito
+149,52,118,14,975695.0,2026-03-09,libro,pendiente,mastercard débito,débito

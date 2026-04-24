@@ -31,24 +31,37 @@ def limpiar_ciudades(df, columna='ciudad'):
     Corrige tildes, espacios y variaciones comunes.
     """
     correccion_ciudades = {
+        # Bogotá
         'bogotá': 'bogota',
         'bógota': 'bogota',
         'bogóta': 'bogota',
         'bogota': 'bogota',
+        # Medellín
         'medellín': 'medellin',
         'medelln': 'medellin',
         'medelín': 'medellin',
+        'medelin': 'medellin',
         'medellin': 'medellin',
+        # Cartagena
         'cartenagena': 'cartagena',
         'cartagena': 'cartagena',
+        # Barranquilla
         'baranquilla': 'barranquilla',
         'barranquilla': 'barranquilla',
+        'barraquilla': 'barranquilla',
+        # Bucaramanga
         'bucaramnga': 'bucaramanga',
         'bucaramanga': 'bucaramanga',
-        'pereira': 'pereira',
+        'bucarmanga': 'bucaramanga',
+        # Cali
         'cali': 'cali',
+        # Pereira
+        'pereira': 'pereira',
+        # Manizales
         'manizales': 'manizales',
-        'desconocida': 'Medellin',  # valor por defecto
+        # Valores por defecto
+        'sin_ciudad': 'medellin',
+        '': 'medellin',
     }
     
     if columna in df.columns:
@@ -76,7 +89,7 @@ def  limpiar_usuarios(df):
     df['ciudad'] = df['ciudad'].fillna('sin_ciudad')
     df['genero'] = df['genero'].fillna('sin_genero')
     df['fecha_registro'] = df['fecha_registro'].fillna(pd.Timestamp('1900-01-01'))
-    mediana_edad = df['edad'].median()
+    mediana_edad = round(df['edad'].median())
     df['edad'] = df['edad'].fillna(mediana_edad)
 
     ##Eliminar Duplicados
@@ -84,7 +97,7 @@ def  limpiar_usuarios(df):
     df = df.drop_duplicates()
     print(f"Filas Eliminadas por Duplicados: {antes - len(df)}")
 
-    #3Limpieza especifica
+    #Limpieza especifica
     df = limpiar_ciudades(df, columna='ciudad')
 
     correccion_genero = {
@@ -92,14 +105,14 @@ def  limpiar_usuarios(df):
         'male': 'm',
         'femenino': 'f',
         'female': 'f',
-        'desconocido': 'm',  # valor por defecto
+        'sin_genero': 'm',  # valor por defecto
         }
     df['genero'] = df['genero'].replace(correccion_genero)
     print("Géneros después de limpiar:")
     print(df['genero'].value_counts())  
         
     # convertir todas las columnas id a int64 para evitar .0
-    id_columns = [col for col in df.columns if 'id' in col.endswitch('id')]
+    id_columns = [col for col in df.columns if col.endswith('_id')]
     for col in id_columns:
         df[col] = df[col].astype('Int64')
 
@@ -169,7 +182,7 @@ def limpiar_comercios(df):
 
 def limpiar_gastos(df):
     print("\n Limpieza de gastos")
-    df = estandarizar_texto(df['descripcion','estado'])
+    df = estandarizar_texto(df, ['descripcion', 'estado'])
     df = manejar_nulos(df, columnas_criticas=['gasto_id','usuario_id','monto'])
     df['descripcion'] = df['descripcion'].fillna('sin_descripcion')
     df['estado'] = df['estado'].fillna('Pendiente')

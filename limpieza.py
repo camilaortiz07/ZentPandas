@@ -25,6 +25,39 @@ def estandarizar_texto(df, columnas):
     print(f"\n Columnas Estandarizadas: {columnas}")
     return df
 
+def limpiar_ciudades(df, columna='ciudad'):
+    """
+    Limpia y estandariza nombres de ciudades.
+    Corrige tildes, espacios y variaciones comunes.
+    """
+    correccion_ciudades = {
+        'bogotá': 'bogota',
+        'bógota': 'bogota',
+        'bogóta': 'bogota',
+        'bogota': 'bogota',
+        'medellín': 'medellin',
+        'medelln': 'medellin',
+        'medelín': 'medellin',
+        'medellin': 'medellin',
+        'cartenagena': 'cartagena',
+        'cartagena': 'cartagena',
+        'baranquilla': 'barranquilla',
+        'barranquilla': 'barranquilla',
+        'bucaramnga': 'bucaramanga',
+        'bucaramanga': 'bucaramanga',
+        'pereira': 'pereira',
+        'cali': 'cali',
+        'manizales': 'manizales',
+        'desconocida': 'Medellin',  # valor por defecto
+    }
+    
+    if columna in df.columns:
+        df[columna] = df[columna].replace(correccion_ciudades)
+        print(f"Ciudades después de limpiar:")
+        print(df[columna].value_counts())
+    
+    return df
+
 ## Limpieza Especifica para cada archivo
 def  limpiar_usuarios(df):
 
@@ -52,22 +85,7 @@ def  limpiar_usuarios(df):
     print(f"Filas Eliminadas por Duplicados: {antes - len(df)}")
 
     #3Limpieza especifica
-    correccion_ciudades = {
-        'bogotá': 'bogota',
-        'bógota': 'bogota',
-        'bogóta': 'bogota',
-        'bogota': 'bogota',
-        'medellín': 'medellin',
-        'medelln': 'medellin',
-        'medelín': 'medellin',
-        'cartenagena': 'cartagena',
-        'baranquilla': 'barranquilla',
-        'bucaramnga': 'bucaramanga',
-        'desconocida': 'medellin',  # valor por defecto
-         }
-    df['ciudad'] = df['ciudad'].replace(correccion_ciudades)
-    print("Ciudades después de limpiar:")
-    print(df['ciudad'].value_counts())
+    df = limpiar_ciudades(df, columna='ciudad')
 
     correccion_genero = {
         'masculino': 'm',
@@ -120,6 +138,79 @@ def limpiar_medios_pago(df):
 
     print(f"Filas finales en medios de pago: {len(df)}")
 
+    id_columns = [col for col in df.columns if col.endswith('_id')]
+    for col in id_columns:
+        df[col] = df[col].astype('Int64')
+    
+    return df
+
+def limpiar_comercios(df):
+    print("\n Limpieza de comercios")
+    df = estandarizar_texto(df, ['nombre','ciudad'])
+    df = manejar_nulos(df, columnas_criticas=['comercio_id','nombre'])
+    df['telefono'] = df['telefono'].fillna('sin_telefono')
+    df['ciudad'] = df['ciudad'].fillna('sin_ciudad')
+
+    ##Limpieza especifica de ciudades
+    df = limpiar_ciudades(df, columna='ciudad')
+
+    # JSON puede traer true/false como string en algunos casos
+    df['activo'] = df['activo'].astype(bool)
+    print("Comercios activos vs inactivos:")
+    print(df['activo'].value_counts())
+
+    print(f"Filas finales en comercios: {len(df)}")
+
+    id_columns = [col for col in df.columns if col.endswith('_id')]
+    for col in id_columns:
+        df[col] = df[col].astype('Int64')
+    
+    return df
+
+def limpiar_gastos(df):
+    print("\n Limpieza de gastos")
+    df = estandarizar_texto(df['descripcion','estado'])
+    df = manejar_nulos(df, columnas_criticas=['gasto_id','usuario_id','monto'])
+    df['descripcion'] = df['descripcion'].fillna('sin_descripcion')
+    df['estado'] = df['estado'].fillna('Pendiente')
+
+    #Corregir tipos de datos
+    df['monto'] = pd.to_numeric(df['monto'], errors='coerce')
+
+    #Corregir fechas con múltiples formatos
+    #Algunos registros pueden tener formatos como: YYYYMMDD, YYYY/MM/DD, etc
+    df['fecha'] = df['fecha'].astype(str).str.replace('/', '-', regex=False)  # convertir / a -
+    #Ahora convierte YYYYMMDD a YYYY-MM-DD
+    mask_yyyymmdd = df['fecha'].str.match(r'^\d{8}$')
+    df.loc[mask_yyyymmdd, 'fecha'] = df.loc[mask_yyyymmdd, 'fecha'].str.replace(
+        r'(\d{4})(\d{2})(\d{2})', r'\1-\2-\3', regex=True
+    )
+    df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')
+
+    #Eliminar filas con fechas inválidas
+    antes = len(df)
+    df = df.dropna(subset=['fecha'])
+    if antes - len(df) > 0:
+        print(f"Filas con fechas inválidas eliminadas: {antes - len(df)}")
+
+    #Limpieza específica: MONTOS NEGATIVOS
+    #Un gasto no puede ser negativo. Los eliminamos.
+    antes = len(df)
+    df = df[df['monto'] > 0]
+    print(f"Filas con monto negativo o cero eliminadas: {antes - len(df)}")
+
+     #Estandarizar el campo ESTADO
+    estados_validos = ['aprobado', 'rechazado', 'pendiente']
+    invalidos = ~df['estado'].isin(estados_validos)
+    if len(df[invalidos]) > 0:
+        print(f"Estados inválidos encontrados: {df[invalidos]['estado'].unique()}")
+        # Los que no están en la lista → 'pendiente' como valor por defecto
+        df.loc[invalidos, 'estado'] = 'pendiente'
+    print("Estados después de limpiar:")
+    print(df['estado'].value_counts())
+
+    print(f"Filas finales en gastos: {len(df)}")
+    
     id_columns = [col for col in df.columns if col.endswith('_id')]
     for col in id_columns:
         df[col] = df[col].astype('Int64')
